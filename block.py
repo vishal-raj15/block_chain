@@ -41,16 +41,16 @@ class block_chain():
         newblock.hash = newblock.getHash()
         self.chain.append(newblock)
 
-bc = block_chain()
+b_c = block_chain()
 n = int(input("no of chains :"))
 for i in range(n):
     amount = float(input("enter amount :"))
-    bc.addblock((block(i,amount)))
-# bc.addblock(block(1,100))
-# bc.addblock(block(2,800))
-# bc.addblock(block(3,400))
+    b_c.addblock((block(i,amount)))
+# b_c.addblock(block(1,100))
+# b_c.addblock(block(2,800))
+# b_c.addblock(block(3,400))
 
 
-for i in bc.chain:
+for i in b_c.chain:
     print(i)
    
