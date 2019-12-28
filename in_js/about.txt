@@ -1,0 +1,13 @@
+BLOCK CHAIN :
+
+A secure , immutable sequense of node with piece of informations.
+
+it is a distributed ledger a network a users/comp in which each of user will have a copy of ledgers(payments/votes)
+its consists of prev hash value and a hash value for each block ,in which miners verifies the validation of 
+transcation .
+its very difficult to get hacked because of each block can be only accessed by previous block's hash value
+
+eg .An easy way to make a transcation .
+blocks are not determined by index of block but by position of block in an array
+
+proof of work is used to increase the difficult level which makes block_chain more fast
