@@ -58,11 +58,7 @@ console.log(mychain.check());
 
  console.log(JSON.stringify(mychain , null,4));
 // console.log(mychain.chain[3]);
-//  console.log(mychain.mine(mychain.chain[3]));
-// //  mychain.chain[2].data.amount = 300;
-// mychain.chain[2].index = 100;
-//  console.log(mychain.chain[3]);
-//  console.log(mychain.mine(mychain.chain[3]));
+
 
 
 
