@@ -15,3 +15,4 @@ Received money is associated with the public key, and you can access or spend th
 with your private key.
 You are safe letting people know about your chest of bitcoins -- your public key -- so
 long as you don’t give them the key to get inside -- your private key.
+(started indexing from 0 so there is two 0 nonce in screenshot , my mistake)
