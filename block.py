@@ -43,7 +43,7 @@ class block_chain():
 
 b_c = block_chain()
 n = int(input("no of chains :"))
-for i in range(n):
+for i in range(1,n+1):
     amount = float(input("enter amount :"))
     b_c.addblock((block(i,amount)))
 # b_c.addblock(block(1,100))
